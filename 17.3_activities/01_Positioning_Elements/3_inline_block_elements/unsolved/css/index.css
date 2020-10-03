@@ -17,6 +17,7 @@ nav {
  float: left;
  width: 30%;
  background-color: rgb(226, 53, 53);
+ padding-top: 10px;
  text-align: center;
  font-size: 30px;
 }
@@ -40,6 +41,12 @@ nav {
   background-color: lightsalmon;
   border-radius: 0px;
   
+}
+
+.cropped {
+    width: 140px; /* width of container */
+    height: 150px; /* height of container */
+    overflow: hidden;
 }
 
 .card {
