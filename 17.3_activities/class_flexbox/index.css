@@ -1,0 +1,79 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block{
+  display: inline-block;
+  padding: 15px;
+  
+}
+
+.block_element{
+  text-align: center;
+}
+.wrapper{
+    display: flex;  
+    background-color: beige;
+    height: 500px;
+
+}
+
+.left{
+ height: 500px;
+ float: left;
+ width: 30%;
+ background-color: rgb(226, 53, 53);
+ padding-top: 10px;
+ text-align: center;
+ font-size: 30px; 
+}
+
+.right {
+  flex-direction: column;
+  background-color:rgb(68, 68, 228);
+  height: 500px;
+  width: 70%;
+  float: left;
+  align-items: flex-start;
+  justify-content: space-between;
+/*  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(68, 68, 228);  */
+  /* background-color: #C6C6C6; */
+  /* border-radius: 5px; */
+  /* text-align: center; */
+
+}
+
+.class1{
+  width: 150px;
+  height: 300px;
+  display: inline-block;
+  background-color: lightsalmon;
+  border-radius: 0px;
+  
+}
+
+.cropped {
+    width: 140px; /* width of container */
+    height: 150px; /* height of container */
+    overflow: hidden;
+}
+
+.card {
+/*   position: relative; */
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+  width: 150px;
+  height: 200px;
+/*   display: inline-block; */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: center;
+}
+/* target the class of inline-block below */
+
+/* target the class of .left below */
+
+/* target the class of .right below */

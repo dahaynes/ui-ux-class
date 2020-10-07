@@ -1,0 +1,144 @@
+/* Navigation styles */
+.logo{
+    background: white;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 3px 3px red;
+}
+
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width:50%
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18pt;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    color:black;
+    font-size: 16pt;
+    padding: 15px;
+    width: 50%;
+
+}
+
+.right button{
+    background-color: yellow;
+}
+
+.left button{
+    background-color:skyblue;
+}
+
+.column {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 3px, 3px red;
+}
+
+.meal1{
+    margin-top: 20px;
+    background-image: url("../images/steak.png");
+}
+
+.meal2{
+    margin-top: 20px;
+    background-image: url("../images/soup.png");
+}
+
+.meal3{
+    margin-top: 20px;
+    background-image: url("../images/cheesecake.png");
+}
+
+.text {
+    background: rgba(0,0,0,0.7);
+    /* color, color, color, opacity */
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.text p{
+    color: rgba(255,255,255,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    box-shadow: 3px, 3px, red;
+}
+
+.fb {
+    color: skyblue;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.tw{
+    color: yellow;
+    text-decoration: none;
+}
+
+.ig {
+    color: red;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+/* 
+# this is for ids
+. this is for classes
+  this is for tags
+ */
+
+/* Column styles */
+
+/* Footer Styles */
