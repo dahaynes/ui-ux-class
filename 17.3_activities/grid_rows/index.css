@@ -1,0 +1,69 @@
+nav{
+    background: white;
+    height: 100px;
+    background-image: url("img/american_flag.jfif");
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+h1{
+    display: float;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lime;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    height: 100px;
+    
+    
+}
+
+.containerGrid{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+
+.left{
+    background-color: rgb(226, 53, 53);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px; 
+}
+
+.right {
+    display: grid;
+    background-color:rgb(68, 68, 228);
+    justify-content: space-evenly;
+    padding-top: 10px;
+
+}
+
+.squareArrangement{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    padding-left: 20px;
+}
+
+.cropped {
+    width: 140px; /* width of container */
+    height: 150px; /* height of container */
+    overflow: hidden;
+}
+
+.card {
+/*   position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 5px;
+  width: 150px;
+  height: 200px;
+/*   display: inline-block; */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: center;
+}
