@@ -35,7 +35,6 @@ body {
 
 }
 
-
 #CTA{
   grid-area: CTA;
   background-image: url("../images/woodbg.png");
@@ -44,6 +43,73 @@ body {
 
 }
 
+
+.subHeading{
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+
+}
+
+#categoryGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+  "bookcases bedroom couches"
+  "patio patio couches"
+  "desks desks desks";
+  width: 500px;
+  margin: 50px auto;
+}
+
+.heading{
+  background-color: rgba(0,0,0,0.75);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #FF6200;
+
+
+}
+
+#bookcases{
+  grid-area: bookcases;
+  background-image: url("../images/bookcases.png");
+}
+
+#bedroom{
+  grid-area: bedroom;
+  background-image: url("../images/beds.png");
+}
+
+#couches{
+  grid-area: couches;
+  background-image: url("../images/couch.png");
+}
+
+#patio{
+  grid-area: patio;
+  background-image: url("../images/patio.png");
+}
+
+#desks{
+  grid-area: desks;
+  background-image: url("../images/desks.png");
+}
+
+
+.categoryGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;;
+}
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
 #navBar {
@@ -118,3 +184,51 @@ h4 {
   
 
 }
+
+
+@media only screen and (max-width:1000px){
+
+  #navigation{
+    display: none;
+  }
+
+  .icons{
+    margin-left: auto;
+  }
+
+
+  #headline{
+    border-bottom: 20px solid green;
+    background-color: rgba(255, 255,255,0.8);
+    
+  }
+}
+
+
+@media only screen and (max-width:600px){
+
+  #headline{
+    border-bottom: 20px solid blue;
+    background-color: rgba(255, 255,255,0.8);
+    
+  }
+}
+
+/*   #heroGrid{
+    display: grid;
+    grid-template-areas: 
+    "CTA CTA"
+    "CTA CTA";
+  }
+
+  #categoryGrid{
+      display: grid;
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1ft;
+      grid-template-areas: 
+      "Bookcases"
+      "Bedroom"
+      "Patio"
+      "Couches"
+      "Desks";
+  } */
