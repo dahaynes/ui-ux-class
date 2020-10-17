@@ -22,7 +22,22 @@ $("#normal").on("click", function () {
 
 
 $("#small").on("click", function () {
-    $("img").width(50)
+    $("#corona").width(50)
     /* $("#corona").css("width", "500px") */
     /* alert("BIG!") */
+}); 
+
+
+$("#addMe").on("click", function () {
+    $("#addMe").text("Add to cart!")
+    /* $("#corona").css("width", "500px") */
+    /* alert("BIG!") */
+}); 
+
+
+$("button").on("click", function () {
+    $(this).text("Add to cart!").css("background-color", "blue")
+    console.log(this)
+    /* this -- this is a magic will figure out */
+    
 }); 
