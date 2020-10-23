@@ -30,3 +30,11 @@ footer {
   outline-offset: -5px;
   outline: red solid 2px;
 }
+
+
+.signUp form{
+  margin: 35px auto;
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 7px;
+}

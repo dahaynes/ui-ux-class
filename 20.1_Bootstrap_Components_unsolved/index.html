@@ -70,7 +70,7 @@
     <p class="lead">"I used to think web developers were cool. Then I found out about bootstrap"</p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Learn more</a>
   </div>
   <!-- Add columns, rows, and cards Below -->
   <div class="container">
@@ -195,9 +195,132 @@
       </div>
     </div>
   </div>
-  <!-- Add form group below -->
 
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="cardContainer col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="images/1_card.png" alt="some dude getting coffee">
+          <div class="card-body">
+            <h5 class="card-title"> My title </h5>
+            <p class="card-text">
+              My text goes here don't forget about it
+            </p>
+            <a href="#" class="btn btn-primary">I'm a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid">
+  CONTAINER
+  <div class="row">
+    <div class="cardContainer col-lg-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/2_card.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/3_card.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/4_card.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/5_card.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<!-- Add form group below -->
+
+<section class="container-fluid">
+  <div class="row signUp">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <!-- input types (tel, email, text) are important for devices -->
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</section>
+
+  
   <!-- Modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" >
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
