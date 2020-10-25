@@ -88,3 +88,66 @@ p {
   color: white;
   text-align: center;
 }
+
+.content{
+  padding: 50px;
+}
+
+.sectionHeading{
+  text-align: center;
+}
+
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+
+.valueProp{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+
+
+.imageContainer {
+  padding: 50px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+@media only screen and (max-width:780px){
+  .imageContainer{
+    display: none;
+  }
+}
+
+.emailContain {
+  background: url("../images/emailBG.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1) 40px rgba(0,0,0,0.1);
+  background-color: white;
+}
